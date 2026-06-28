@@ -1,0 +1,198 @@
+{% extends "base.html" %}
+
+{% block title %}
+About - CSL Blueprints
+{% endblock %}
+
+{% block content %}
+
+<!-- Hero Section -->
+
+<section class="hero">
+
+    <div class="overlay">
+
+        <div class="hero-content">
+
+            <h1>About Us</h1>
+
+            <p>Building innovative solutions for tomorrow.</p>
+
+            <div class="scroll-down">
+                ↓
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- About Company -->
+
+<section class="about-company">
+
+    <h2>Who We Are</h2>
+
+    <div class="about-container">
+
+        <div class="about-image">
+
+            <img src="{{ url_for('static', filename='images/about-bg.jpg') }}" alt="CSL Blueprints">
+
+        </div>
+
+        <div class="about-text">
+
+            <h3>Building Solutions That Matter</h3>
+
+            <p>
+                CSL Blueprints is committed to providing innovative,
+                reliable and sustainable engineering, consultancy and
+                technology solutions.
+            </p>
+
+            <p>
+                We combine creativity, technical expertise and
+                professionalism to deliver projects that improve lives,
+                businesses and communities.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- Mission Vision Values -->
+
+<section class="mission-section">
+
+    <h2>Our Foundation</h2>
+
+    <div class="cards">
+
+        <div class="card">
+
+            <h3>Mission</h3>
+
+            <p>
+                To deliver innovative and sustainable solutions that
+                exceed client expectations.
+            </p>
+
+        </div>
+
+        <div class="card">
+
+            <h3>Vision</h3>
+
+            <p>
+                To become one of Africa's leading engineering and
+                consultancy firms.
+            </p>
+
+        </div>
+
+        <div class="card">
+
+            <h3>Core Values</h3>
+
+            <p>
+                Integrity, Innovation, Excellence,
+                Professionalism and Teamwork.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- Statistics -->
+
+<section class="stats-section">
+
+    <div class="stat-box">
+
+        <h2>50+</h2>
+
+        <p>Completed Projects</p>
+
+    </div>
+
+    <div class="stat-box">
+
+        <h2>25+</h2>
+
+        <p>Happy Clients</p>
+
+    </div>
+
+    <div class="stat-box">
+
+        <h2>10+</h2>
+
+        <p>Professional Partners</p>
+
+    </div>
+
+    <div class="stat-box">
+
+        <h2>5</h2>
+
+        <p>Years of Experience</p>
+
+    </div>
+
+</section>
+
+<!-- Team -->
+
+<section class="team-section">
+
+    <h2>Meet Our Team</h2>
+
+    <p class="team-intro">
+
+        Dedicated professionals committed to excellence.
+
+    </p>
+
+    <div class="team-container">
+
+        <div class="team-card">
+
+            <img src="{{ url_for('static', filename='images/about-bg.jpg') }}" alt="Founder">
+
+            <h3>Lekuiye Clement</h3>
+
+            <p>Founder & Managing Director</p>
+
+        </div>
+
+        <div class="team-card">
+
+            <img src="{{ url_for('static', filename='images/about-bg.jpg') }}" alt="Manager">
+
+            <h3>Project Manager</h3>
+
+            <p>Engineering & Design</p>
+
+        </div>
+
+        <div class="team-card">
+
+            <img src="{{ url_for('static', filename='images/about-bg.jpg') }}" alt="Consultant">
+
+            <h3>Business Consultant</h3>
+
+            <p>Business Development</p>
+
+        </div>
+
+    </div>
+
+</section>
+
+{% endblock %}
