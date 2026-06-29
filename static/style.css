@@ -43,7 +43,7 @@ body{
 
 .logo{
 
-    color:rgb(255, 254, 254);
+    color:rgb(14, 14, 14);
 
     font-size:24px;
 
@@ -55,7 +55,7 @@ body{
 
 .navbar nav a{
 
-    color:white;
+    color:rgb(252, 4, 4);
 
     text-decoration:none;
 
@@ -87,7 +87,7 @@ body{
 
     height:100vh;
 
-    background-image:url("/static/images/about-bg.jpg");
+    background-image:url("/static/images/picture2.jpg");
 
     background-size:cover;
 
@@ -474,7 +474,7 @@ transform:translateY(-7px);
 
 .home-hero{
     height:100vh;
-    background-image:url("/static/images/about-bg.jpg");
+    background-image:url("/static/images/picture1.jpg");
     background-size:cover;
     background-position:center;
     background-repeat:no-repeat;
